@@ -1,0 +1,12 @@
+[book]
+title = "My notes"
+authors = ["Ankit Mathur"]
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/pati-dev/nick-notes-neatly.git"
+git-repository-icon = "fa-github"
+default-theme = "ayu"
+mathjax-support = true
