@@ -30,7 +30,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand":
-		"docker run --rm -d -p 1010:1010 -v ${LOCAL_WORKSPACE_FOLDER}:/workspaces/notes $(docker build -q --file ./Dockerfile /workspaces/notes)",
+		"docker run --rm -d -p 1010:1010 -v ${LOCAL_WORKSPACE_FOLDER}:/workspaces/nick-notes-neatly $(docker build -q --file ./Dockerfile /workspaces/nick-notes-neatly)",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
