@@ -26,11 +26,11 @@
 	],
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [1010],
+	"forwardPorts": [1010],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand":
-		// "docker run --rm -d -p 1010:1010 -v ${LOCAL_WORKSPACE_FOLDER}:/workspaces/kitaab $(docker build -q --file ./Dockerfile /workspaces/notes)",
+		"docker run --rm -d -p 1010:1010 -v ${LOCAL_WORKSPACE_FOLDER}:/workspaces/kitaab $(docker build -q --file ./Dockerfile /workspaces/notes)",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
