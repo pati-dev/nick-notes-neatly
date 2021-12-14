@@ -8,7 +8,6 @@ This project allows a developer to capture notes in markdown files that are rend
 - VS Code with Remote-Containers extension installed
 
 ### How to setup
-To begin using this setup:
 - Clone the repo locally
 - Open root directory (`nick-notes-neatly`) in VS Code
 - VS Code will detect the presence of devcontainer file
