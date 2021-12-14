@@ -8,6 +8,6 @@ RUN apt-get update && \
 RUN rustup target add "${ARC}"
 RUN cargo install mdbook --version "${MDBOOK_VERSION}" --target "${ARC}"
 
-WORKDIR /workspaces/kitaab
+WORKDIR /workspaces/notes
 
 CMD [ "mdbook", "serve", "-p", "1010", "-n", "0.0.0.0" ]
